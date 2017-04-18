@@ -20,3 +20,8 @@ class Timer():
     def output(self):
         for name in self.timers:
             print(name,'time:',self.timers[name],'s')
+        return self.timers
+
+    def add(self,name,x):
+        self.timers[name] = self.timers[name] + x
+        return self.timers[name]
