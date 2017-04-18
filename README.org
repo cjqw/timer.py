@@ -1,0 +1,3 @@
+* timer
+This is a python library designed for recording the executing time of
+any component of your program.
